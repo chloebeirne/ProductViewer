@@ -1,7 +1,7 @@
 package productv5;
 
-import ie.atu.productv5.Music;
-import ie.atu.productv5.MusicDB;
+import ie.atu.productv3.Music;
+import ie.atu.productv3.MusicDB;
 
 import java.util.Scanner;
 
