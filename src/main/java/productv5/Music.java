@@ -32,4 +32,8 @@ public class Music {
 
     public void setLabel(String label){ this.label = label; }
     public String getLabel(){ return label; }
+
+    public String toString(){ return description + " by " + artist + " by " + label; }
+
+    public static int getCount(){ return count; }
 }
