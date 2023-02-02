@@ -4,7 +4,7 @@ import ie.atu.productv5.Music;
 
 public class MusicDB {
 
-    public static Music getBook(String productCode) {
+    public static Music getMusic(String productCode) {
         // In a more realistic application, this code would
         // get the data for the product from a file or database
         // For now, this code just uses if/else statements
