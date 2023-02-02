@@ -1,5 +1,7 @@
 package productv5;
 
+import java.text.NumberFormat;
+
 public class Music {
 
     private double price;
@@ -32,6 +34,11 @@ public class Music {
 
     public void setLabel(String label){ this.label = label; }
     public String getLabel(){ return label; }
+
+    public String getPriceFormatted() {
+        NumberFormat currency = NumberFormat.getCurrencyInstance();
+        return currency.format(price);
+    }
 
     public String toString(){ return description + " by " + artist + " by " + label; }
 
