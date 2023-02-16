@@ -28,5 +28,6 @@ public class Dog {
     public String toString(){ return dam + " by " + sire + " by " + height; }
 
     public static int getCount(){ return count; }
+
 }
 

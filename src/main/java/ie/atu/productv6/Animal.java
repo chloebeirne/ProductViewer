@@ -10,7 +10,7 @@ public class Animal {
     private String breed;
     protected static int count = 0;
 
-    public Music(){
+    public Animal(){
         price = 0.0;
         type = "";
         age = "";
